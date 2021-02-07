@@ -1,22 +1,22 @@
 const cardRows = [
     {
       label: 'yields',
-      text: '12 servings',
+      text: <p><span>12 servings</span></p>,
       img: 'spoon-and-knife.svg',
     },
     {
       label: 'prep time',
-      text: '45 minutes',
+      text: <p>45 minutes</p>,
       img: 'clock.svg',
     },
     {
       label: 'cook time',
-      text: '1 hour',
+      text: <p>1 hour</p>,
       img: 'clock.svg',
     },
     {
       label: 'total time',
-      text: '1h 45m',
+      text: <p>1h 45m</p>,
       img: 'clock.svg',
     },
 ];

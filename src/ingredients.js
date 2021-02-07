@@ -1,34 +1,34 @@
 
 const ingredients = [
     {
-      label: '1 and 1/2 cups (150g) graham cracker crumbs (about 10 full sheet graham crackers)'
+      label: <p>1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet graham crackers)</p>
     },
     {
-      label: '5 Tablespoons (70g) unsalted butter, melted',
+      label: <p>5 Tablespoons (70g) <span>unsalted butter</span> melted</p>
     },
     {
-      label: '1/4 cup (50g) granulated sugar',
+      label: <p>1/4 cup (50g) <span>granulated sugar</span></p>
     },
     {
-      label: 'four 8-ounce blocks (904g) full-fat cream cheese, softened to room temperature',
+      label: <p>four 8-ounce blocks (904g) full-fat <span>cream cheese</span>, softened to room temperature</p>
     },
     {
-      label: '1 cup (200g) granulated sugar',
+      label: <p>1 cup (200g) <span>granulated sugar</span></p>
     },
     {
-      label: '1 cup (240g) full-fat sour cream, at room temperature',
+      label: <p>1 cup (240g) full-fat <span>sour cream</span>, at room temperature</p>
     },
     {
-      label: '1 teaspoon pure vanilla extract',
+      label: <p>1 teaspoon <span>pure vanilla extract</span></p>
     },
     {
-      label: '2 teaspoons fresh lemon juice (optional, but recommended)',
+      label: <p>2 teaspoons <span>fresh lemon juice (optional, but recommended)</span></p>
     },
     {
-      label: '3 large eggs, at room temperature',
+      label: <p>3 large <span>eggs</span>, at room temperature</p>
     },
     {
-      label: 'topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce (recipe in notes)',
+      label: <p>topping suggestions: <em>salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</em> (recipe in notes)</p>
     },
   ];
   
