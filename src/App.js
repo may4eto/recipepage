@@ -10,10 +10,8 @@ function Header () {
       <header className="row mb-4 mb-md-5">
         <div className="col-12 header mt-3 mt-md-4 mt-lg-5">
               <h1 className="mb-3">Classic Cheesecake Recipe</h1>
-              <div className="header-text d-flex mb-2 mb-md-4">
-                <span className="mr-2">
-                  <img src="6dots.svg" alt="" />
-                </span>
+              <div className="header-text d-flex mb-2 mb-md-4 align-items-start">
+                <img src="6dots.svg" className="mr-2 pt-1" alt="" />
                 <p>
                   Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.
                 </p>
@@ -32,7 +30,7 @@ class Ingredient extends React.Component {
   render() {
     return (
       <div className="form-check">
-        <input class="form-check-input mr-2" type="checkbox" value="" id="defaultCheck1" />
+        <input class="form-check-input mr-3" type="checkbox" value="" id="defaultCheck1" />
         <label class="" for="defaultCheck1">{this.props.label}</label>
      </div>
     );
